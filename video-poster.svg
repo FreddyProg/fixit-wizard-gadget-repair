@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#1e3c31"/>
+  <circle cx="850" cy="190" r="190" fill="#d5f36c"/>
+  <path d="M580 530 710 210l-48 0-105 190h74l-50 130z" fill="#1e3c31"/>
+  <text x="85" y="110" fill="#fff" font-family="Arial,sans-serif" font-size="34" letter-spacing="8">FIXIT WIZARD</text>
+  <text x="85" y="600" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="bold">REPAIR SMART</text>
+</svg>
