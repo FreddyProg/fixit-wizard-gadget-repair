@@ -13,7 +13,7 @@
   <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 </head>
 <body>
-  <!-- making this beatiful-->
+  <!-- Site header: brand link, mobile menu button, and primary page navigation. -->
   <header class="site-header">
     <a class="brand" href="#top" aria-label="FIXIT WIZARD home">
       <span class="brand-mark" aria-hidden="true">
@@ -30,9 +30,8 @@
     </nav>
   </header>
 
-  <!--tested-->
-
   <main id="top">
+    <!-- Hero section introduces the repair service and provides the main calls to action. -->
     <section class="hero section-wrap">
       <div class="hero-copy">
         <p class="eyebrow"><span class="eyebrow-line"></span> Affordable repairs. Remarkable care.</p>
@@ -58,12 +57,14 @@
       </div>
     </section>
 
+    <!-- Quick facts summarize the service promise beneath the hero content. -->
     <section class="stats section-wrap" aria-label="FIXIT WIZARD at a glance">
       <div><strong>100%</strong><span>transparent pricing</span></div>
       <div><strong>5★</strong><span>careful service mindset</span></div>
       <div><strong>01</strong><span>goal: your gadget working</span></div>
     </section>
 
+    <!-- Service cards list the most common repair and support options. -->
     <section class="section-wrap services-section" id="services">
       <div class="section-heading">
         <div><p class="eyebrow"><span class="eyebrow-line"></span> What we fix</p><h2>Reliable help for<br>your <em>everyday tech.</em></h2></div>
@@ -76,10 +77,12 @@
       </div>
     </section>
 
+    <!-- Promotional video section uses the poster image while the video loads. -->
     <section class="video-section" id="video">
       <div class="section-wrap video-layout">
         <div class="video-intro"><p class="eyebrow light"><span class="eyebrow-line"></span> Meet FIXIT WIZARD</p><h2>A closer look at<br>how we <em>repair.</em></h2><p>Watch our short promotional video and see the affordable, careful service behind every device we handle.</p></div>
         <div class="video-frame">
+          <!-- The browser displays native playback controls for the MP4 advertisement. -->
           <video controls preload="metadata" poster="video-poster.svg">
             <source src="advertisement.mp4" type="video/mp4">
             Your browser does not support the video element.
@@ -89,11 +92,13 @@
       </div>
     </section>
 
+    <!-- Story section explains the company's value proposition and approach. -->
     <section class="section-wrap story-section" id="story">
       <div class="story-art"><div class="orbit"></div><div class="story-bolt">⚒</div><span class="story-label">Repair smart.<br>Spend less.</span></div>
       <div class="story-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Why FIXIT WIZARD</p><h2>Better repairs at<br>a <em>fair price.</em></h2><p>We know gadgets are essential for school, work, and everyday life. Our promise is simple: affordable service, transparent pricing, careful quality control, and communication you can trust.</p><a class="button button-dark" href="#contact">Get a repair estimate <span>↗</span></a></div>
     </section>
 
+    <!-- Contact form collects the details needed to begin a repair estimate. -->
     <section class="quote-section" id="contact">
       <div class="section-wrap quote-layout">
         <div><p class="eyebrow light"><span class="eyebrow-line"></span> Start a repair request</p><h2>Let's get your<br>gadget <em>working.</em></h2><p>Tell us what went wrong. We will help you find the right next step and explain the service before work begins.</p></div>
@@ -108,6 +113,7 @@
     </section>
   </main>
   <footer class="site-footer section-wrap"><a class="brand" href="#top"><span class="brand-mark"><svg viewBox="0 0 48 48"><path d="M28.4 2 9 27.7h11.8L18.6 46 39 20.2H27.3L28.4 2Z"/></svg></span><span>FIXIT <b>WIZARD</b></span></a><p>Affordable repairs. Reliable results.</p><p>© 2026 FIXIT WIZARD</p></footer>
+  <!-- PyScript handles the page interactions, including navigation and form behavior. -->
   <script type="py" src="main.py"></script>
 </body>
 </html>
